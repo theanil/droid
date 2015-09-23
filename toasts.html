@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -6,11 +7,8 @@
 
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
 		<link rel="stylesheet" href="css/nativedroid2.css" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
-		<script src="js/nativedroid2.js"></script>
 
 				<style>
 					/* Prevent FOUC */
@@ -37,7 +35,7 @@
 					Toasts are small notification appearing from the bottom. According to the <a href="https://www.google.com/design/spec/components/snackbars-toasts.html" target="_blank">Material Design Guidelines</a> they have no icon and at least a small message. Optional you can place one action button.
 				</p>
 				<p>
-					In nativeDroid<sup>2</sup> you can trigger Toasts in two different ways.
+					In nativeDroid<sup>2</sup> you can trigger Toats in two different ways.
 				</p>
 				<span class="nd2-title">Programmatically</span>
 				<p>
@@ -55,15 +53,6 @@
  });</pre>
 				</p>
 				<span class="nd2-title">By Data Attributes</span>
-				<p>
-					<pre>&lt;a href="#"
-   <strong>data-role="toast"</strong>
-   <strong>data-toast-message</strong>="Simple toast message set by data-message"
-   data-toast-action-title="Action"
-   data-toast-action-link="toasts.html"
-   data-toast-action-color="red"
-   data-toast-ttl="6000"&gt;Link&lt;/a&gt;</pre>
-				</p>
 
 					<span class="nd2-title">Demonstration</span>
 					<p>
@@ -94,15 +83,21 @@
 							data-role="toast"
 							data-toast-message="Mic on"
 							data-toast-action-title="Abort"
-							data-toast-action-link="toasts.html"
+							data-toast-action-link="tabs.html"
 							data-toast-action-color="yellow">
 								<i class='zmdi zmdi-mic-off zmd-2x'></i>
 				</a>
+				<nd2-ad data-banner="sample.banner"></nd2-ad>
 
 			</div>
 
 		</div>
 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
 
 		<<script type="text/javascript">
 
