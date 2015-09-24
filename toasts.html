@@ -38,20 +38,7 @@
 					In nativeDroid<sup>2</sup> you can trigger Toats in two different ways.
 				</p>
 				<span class="nd2-title">Programmatically</span>
-				<p>
-					<pre><strong>new</strong> $.nd2Toast({ <em>// The 'new' keyword is important, otherwise you would overwrite the current toast instance</em>
-   <strong>message</strong> : "Sample Message", <em>// Required</em>
-   <strong>action</strong> : { <em>// Optional (Defines the action button on the right)</em>
-     title : "Pick phone", <em>// Title of the action button</em>
-     link : "/any/link.html", <em>// optional (either link or fn or both must be set to define an action)</em>
-     fn : function() { <em>// function that will be triggered when action clicked</em>
-        console.log("Action Button clicked'");
-     },
-     color : "red" <em>// optional color of the button (default: 'lime')</em>
-   },
-   <strong>ttl</strong> : 8000 <em>// optional, time-to-live in ms (default: 3000)</em>
- });</pre>
-				</p>
+
 				<span class="nd2-title">By Data Attributes</span>
 
 					<span class="nd2-title">Demonstration</span>
